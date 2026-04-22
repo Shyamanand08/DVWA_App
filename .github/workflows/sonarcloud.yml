@@ -16,7 +16,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
-            -Dsonar.projectKey=Shyamanand08_WebGoat
+            -Dsonar.projectKey=Shyamanand08_DVWA_App
             -Dsonar.organization=shyamanand08
             -Dsonar.sources=.
         env:
